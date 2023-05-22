@@ -95,7 +95,9 @@ h2{
 
 
 .piePag{ 
-    display:grid;   
+    display:grid; 
+    justify-content: space-around;
+    justify-items: start;
     background-color: black;
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -130,7 +132,7 @@ h2{
 }
 
 .norteño{
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     background-image: url(../assets/Images/Fondos/fondoNorte.jpg);
     background-position: center;
 }
@@ -144,13 +146,13 @@ h2{
 }
 
 .budista{
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     background-image: url(../assets/Images/Fondos/fondoBudista.jpg);
     background-position: center;   
 }
 
 .sahumerio{
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     background-image: url(../assets/Images/Fondos/fondoAroma.jpg);
     background-position: center;    
 }
