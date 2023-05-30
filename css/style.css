@@ -2,3 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+@media (max-width: 890px) {
+  .catalogo {
+    width: max-content; } }
+
+@media (min-width: 770px) {
+  h1 {
+    display: flex;
+    color: #cf4242; }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end; }
+  .lista {
+    padding-right: 10px; } }
+
+@media (max-width: 460px) {
+  .card-body1 {
+    display: none; }
+  .card {
+    padding-bottom: 5px; } }
+
+.nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #125a03;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small; }
+
+h1 {
+  display: none; }
+
+.lista {
+  display: flex;
+  list-style: none;
+  gap: 20px; }
+  .lista li a {
+    text-decoration: none; }
+
+main {
+  background-image: url(../assets/Images/Fondos/paisajeFondo.jpg);
+  background-position: center; }
+
+h2 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15px; }
+
+.productos {
+  display: flex;
+  justify-content: space-around; }
