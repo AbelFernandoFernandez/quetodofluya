@@ -5,3 +5,19 @@
 @import "./layout/media";
 @import "./layout/header";
 @import "./layout/main-index";
+@import "./layout/footer";
+@import "./layout/budista";
+@import "./layout/contacto";
+@import "./layout/norteños";
+@import "./layout/quienSomos";
+@import "./layout/sahumerios";
+
+.venta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-content: center;
+    align-items: stretch;
+    justify-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
