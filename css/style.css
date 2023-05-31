@@ -125,3 +125,5 @@ main {
   align-items: stretch;
   justify-items: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .venta .card {
+    margin-bottom: 50px; }
