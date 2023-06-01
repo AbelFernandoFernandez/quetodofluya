@@ -1,14 +1,14 @@
 .nav {
     display: flex;
     flex-direction: column;
-    background-color: rgb(18, 90, 3);
+    background: linear-gradient(0deg, rgb(192, 31, 31) 0%, hsl(64, 70%, 52%) 45%, #30a844 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
     align-items: center;
     font-size: small;
 }
 
-h1 {
+.focus-in-expand-fwd  {
     display: none;
 } 
 .card-body1 {
