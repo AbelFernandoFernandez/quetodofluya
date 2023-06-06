@@ -1,6 +1,4 @@
-.budista {
-    padding: 10px;
-    background-image: url(../assets/Images/Fondos/fondobudista.jpg);
-    background-size: cover;
-    background-position: center;
-    }
+    .budista{
+        background-image: url(../assets/Images/Fondos/fondobudista.jpg);
+        @include formato;
+    } 

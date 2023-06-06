@@ -1,6 +1,6 @@
-.norteño {
-    padding: 10px;
+.norteño{
     background-image: url(../assets/Images/Fondos/fondoNorte.jpg);
-    background-size: cover;
-    background-position: center;
+    @include formato;
 }
+
+    

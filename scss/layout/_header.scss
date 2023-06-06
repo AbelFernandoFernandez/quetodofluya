@@ -5,7 +5,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
     align-items: center;
-    font-size: small;
+    font-size:small;
+    font-weight:bold;
 }
 
 .focus-in-expand-fwd  {
@@ -20,6 +21,7 @@
 
 .lista {
     display: flex;
+    padding-right: 30px;
     list-style: none;
     gap: 20px;
         li a {
