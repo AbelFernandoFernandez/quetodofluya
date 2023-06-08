@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
-.contain-fluid{
-    
+.contain-fluid{    
     border-style:double ;
     border-color: rgb(173, 10, 10);
 
+}
+
+@media (max-width: 890px) {
+    .catalogo{
+        width: max-content;
+    }
 }
 
 
@@ -32,6 +37,10 @@ h1{
     display:flex; 
     list-style: none;
     gap:20px;
+}
+
+li a{
+    text-decoration: none;
 }
 
 @media (min-width: 770px) {
@@ -95,7 +104,9 @@ h2{
 
 
 .piePag{ 
-    display:grid;   
+    display:grid; 
+    justify-content: space-around;
+    justify-items: start;
     background-color: black;
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -117,40 +128,40 @@ h2{
 
 .qsomos{
     padding-top: 50px;
+    text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     font-style: oblique;
 }
 
+
 .venta{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-content: center;
+    align-items: stretch;
+    justify-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+
 .norteño{
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     background-image: url(../assets/Images/Fondos/fondoNorte.jpg);
     background-position: center;
 }
 
-.venta{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 .budista{
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     background-image: url(../assets/Images/Fondos/fondoBudista.jpg);
     background-position: center;   
 }
 
 .sahumerio{
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     background-image: url(../assets/Images/Fondos/fondoAroma.jpg);
     background-position: center;    
 }
