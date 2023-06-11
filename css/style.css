@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 * {
   margin: 0;
   padding: 0;
@@ -132,7 +131,7 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center; } }
 
-    @media (min-width: 768px) {
+@media (min-width: 768px) {
   .nav {
     display: flex;
     justify-content: space-between;
